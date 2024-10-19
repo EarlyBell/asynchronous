@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+    text-align: center;
+    }
+    p{
+        padding: 20px;
+        font-size: 20px;
+        color: red;
+        width: 400px;
+        margin: auto;
+    }
+    </style>
 </head>
 <body>
-
+<div class="container">
+<p id="joke">Mad Joke Loading....</p>
+<button onclick="fetchJoke()">Fetch chuck noris joke</button>
+</div>
 </body>
-<script src="script.js"></script>
+<script src="promises.js"></script>
+<!-- <script src="script.js"></script> -->
 </html>
